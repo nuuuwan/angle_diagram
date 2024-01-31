@@ -1,8 +1,11 @@
 import math
 import os
 import pathlib
-from functools import cache, cached_property
 import random
+from functools import cache, cached_property
+
+from reportlab.graphics import renderPM
+from svglib.svglib import svg2rlg
 from utils import Log, _
 
 from utils_future import BBox, LatLng
@@ -15,7 +18,7 @@ COLOR_CACHE = {}
 def get_color(x):
     if x not in COLOR_CACHE:
         h = random.randint(0, 240)
-        COLOR_CACHE[x] = f'hsl({h}, 100%, 25%)'
+        COLOR_CACHE[x] = f'hsla({h}, 100%, 25%, 0.5)'
     return COLOR_CACHE[x]
 
 
@@ -25,6 +28,8 @@ FONT_SIZE = 16
 
 class AngleDiagramRender:
     class STYLES:
+        TITLE = dict(font_family=FONT_FAMILY, fill="gray", text_anchor="middle") 
+
         class PLACE:
             CIRCLE = dict(r=9, fill='white', stroke='grey', stroke_width=6)
             TEXT = dict(
@@ -35,7 +40,7 @@ class AngleDiagramRender:
             )
 
         class ROAD:
-            PATH = dict(stroke_width=6, fill='none', stroke_opacity=0.5)
+            PATH = dict(stroke_width=12, fill='none')
 
             LABEL = dict(font_size=FONT_SIZE * 2 / 3, font_family=FONT_FAMILY)
 
@@ -166,6 +171,30 @@ class AngleDiagramRender:
                 for road, places in self.roads.items()
             ],
         )
+    
+    @cached_property
+    def svg_titles(self) -> _:
+        width, height = self.width_height
+        padding = self.padding
+        return _('g', [
+            _('text', self.title, AngleDiagramRender.STYLES.TITLE | dict(
+                x=width/2 + padding,
+                y=padding * 1.5,
+
+                font_size=FONT_SIZE * 8,
+            )),
+             _('text', self.sub_title, AngleDiagramRender.STYLES.TITLE | dict(
+                x=width/2 + padding,
+                y=padding * 2.5,
+
+                font_size=FONT_SIZE * 4,
+            )),
+                _('text', self.footer, AngleDiagramRender.STYLES.TITLE | dict(
+                x=width/2 + padding,
+                y=height + padding * 3 ,
+                font_size=FONT_SIZE * 4.5,
+            ))
+        ])
 
     @cached_property
     def svg(self) -> _:
@@ -173,12 +202,18 @@ class AngleDiagramRender:
         padding = self.padding
         svg = _(
             'svg',
-            [self.svg_roads, self.svg_places],
-            dict(width=width + 2 * padding, height=height + 2 * padding),
+            [self.svg_roads, self.svg_places, self.svg_titles],
+            dict(width=width + 2 * padding, height=height + 4 * padding),
         )
         return svg
 
     def write(self, path: pathlib.Path):
         self.svg.store(path)
         log.debug(f'Wrote {path}')
-        os.startfile(path)
+        png_path = path.with_suffix('.png')
+
+        drawing = svg2rlg(path)
+        renderPM.drawToFile(drawing, png_path, fmt="PNG", dpi=120)
+        log.info(f'Wrote {png_path}')
+
+        os.startfile(png_path)

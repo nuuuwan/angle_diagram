@@ -1,4 +1,7 @@
 {
+  "title": "A-Grade Roads",
+  "sub_title": "Road Network of Sri Lanka",
+  "footer": "By @nuuuwan",
   "places": {
     "Akuressa": [
       6.0904,
@@ -426,6 +429,7 @@
     ],
     "A33": [
       "Ja-Ela",
+      "Gampaha",
       "Yakkala"
     ],
     "A34": [
@@ -438,7 +442,7 @@
     ]
   },
   "width_height": [
-    1200,
+    1500,
     2000
   ],
   "padding": 100

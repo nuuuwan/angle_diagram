@@ -53,7 +53,7 @@ class BBox:
 
             width, height = width_height
             x = padding + plng * (width - 2 * padding)
-            y = padding + (1 - plat) * (height - 2 * padding)
+            y = padding * 3 + (1 - plat) * (height - 2 * padding)
             return x, y
 
         return transformer

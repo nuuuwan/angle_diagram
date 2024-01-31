@@ -10,11 +10,18 @@ log = Log('AngleDiagramBase')
 class AngleDiagramBase:
     def __init__(
         self,
+        title: str,
+        sub_title: str,
+        footer: str,
         places: dict[str, LatLng],
         roads: dict[str, tuple[str]],
         width_height: tuple[float, float],
         padding: float,
     ):
+
+        self.title = title
+        self.sub_title = sub_title
+        self.footer = footer
         self.places = places
         self.roads = roads
         self.width_height = width_height
@@ -22,6 +29,9 @@ class AngleDiagramBase:
 
     def to_dict(self) -> dict:
         return dict(
+            title=self.title,
+            sub_title=self.sub_title,
+            footer=self.footer,
             places={
                 place: latlng.to_tuple()
                 for place, latlng in sorted(
@@ -41,6 +51,9 @@ class AngleDiagramBase:
     @classmethod
     def from_dict(cls, d: dict):
         return cls(
+            title=d['title'],
+            sub_title=d['sub_title'],
+            footer=d['footer'],
             places={
                 place: LatLng.from_tuple(latlng)
                 for place, latlng in d['places'].items()
