@@ -1,0 +1,445 @@
+{
+  "places": {
+    "Akuressa": [
+      6.0904,
+      80.4762
+    ],
+    "Ambepussa": [
+      7.2414,
+      80.2114
+    ],
+    "Ampara": [
+      7.2979,
+      81.6749
+    ],
+    "Anuradhapura": [
+      8.3114,
+      80.4037
+    ],
+    "Avissawella": [
+      6.954,
+      80.2106
+    ],
+    "Badulla": [
+      6.9898,
+      81.0559
+    ],
+    "Batticaloa": [
+      7.717,
+      81.7
+    ],
+    "Beragala": [
+      6.8305,
+      80.9888
+    ],
+    "Chenkaladi": [
+      7.7857,
+      81.5902
+    ],
+    "Colombo": [
+      6.9271,
+      79.8612
+    ],
+    "Dambulla": [
+      7.8751,
+      80.6512
+    ],
+    "Galkulama": [
+      8.2739,
+      80.5002
+    ],
+    "Galle": [
+      6.0535,
+      80.221
+    ],
+    "Gampaha": [
+      7.0911,
+      79.9944
+    ],
+    "Habarana": [
+      8.04,
+      80.7553
+    ],
+    "Hali-Ela": [
+      6.9555,
+      81.0315
+    ],
+    "Hambantota": [
+      6.1241,
+      81.1188
+    ],
+    "Horowpothana": [
+      8.5509,
+      80.8324
+    ],
+    "Ja-Ela": [
+      7.0812,
+      79.8909
+    ],
+    "Jaffna": [
+      9.6619,
+      80.0258
+    ],
+    "Kalutara": [
+      6.5854,
+      79.9607
+    ],
+    "Kandy": [
+      7.2906,
+      80.6337
+    ],
+    "Karaitivu": [
+      7.3771,
+      81.8384
+    ],
+    "Karawanella": [
+      7.0235,
+      80.2614
+    ],
+    "Kegalle": [
+      7.2514,
+      80.3464
+    ],
+    "Kilinochchi": [
+      9.3879,
+      80.4037
+    ],
+    "Kumbalwela": [
+      6.8736,
+      81.0312
+    ],
+    "Kurunegala": [
+      7.4868,
+      80.3648
+    ],
+    "Madampe": [
+      6.534,
+      80.5932
+    ],
+    "Maha Oya": [
+      7.546,
+      81.3775
+    ],
+    "Mankulam": [
+      9.1293,
+      80.4467
+    ],
+    "Mannar": [
+      8.9772,
+      79.9092
+    ],
+    "Maradankadawala": [
+      8.1276,
+      80.5628
+    ],
+    "Matale": [
+      7.4675,
+      80.6234
+    ],
+    "Matara": [
+      5.9481,
+      80.5353
+    ],
+    "Medawachchiya": [
+      8.5385,
+      80.4932
+    ],
+    "Mihintale": [
+      8.3585,
+      80.5117
+    ],
+    "Moneragala": [
+      6.8787,
+      81.3492
+    ],
+    "Mullaitivu": [
+      9.2673,
+      80.8144
+    ],
+    "Nonagama": [
+      6.114,
+      80.9913
+    ],
+    "Nuwara-Eliya": [
+      6.9704,
+      80.7891
+    ],
+    "Padeniya": [
+      7.656,
+      80.2211
+    ],
+    "Padiyathalawa": [
+      7.4003,
+      81.243
+    ],
+    "Panadura": [
+      6.7135,
+      79.9042
+    ],
+    "Paranthan": [
+      9.4364,
+      80.4079
+    ],
+    "Parayanalankulam": [
+      8.7495,
+      80.1835
+    ],
+    "Passara": [
+      6.9397,
+      81.1753
+    ],
+    "Pelmadulla": [
+      6.6362,
+      80.5279
+    ],
+    "Polgahawela": [
+      7.3355,
+      80.3003
+    ],
+    "Polonnaruwa": [
+      7.9394,
+      81.0
+    ],
+    "Pottuvil": [
+      6.874,
+      81.8388
+    ],
+    "Puttalam": [
+      8.0375,
+      79.8282
+    ],
+    "Rambewa": [
+      8.4416,
+      80.5063
+    ],
+    "Ratnapura": [
+      6.6828,
+      80.3997
+    ],
+    "Siyabalanduwa": [
+      6.9083,
+      81.5601
+    ],
+    "Thiruk'madu": [
+      7.9454,
+      81.5067
+    ],
+    "Trincomalee": [
+      8.5874,
+      81.2152
+    ],
+    "Vavuniya": [
+      8.7518,
+      80.4982
+    ],
+    "Wellawaya": [
+      6.732,
+      81.1019
+    ],
+    "Yakkala": [
+      7.0859,
+      80.0333
+    ]
+  },
+  "roads": {
+    "A01": [
+      "Colombo",
+      "Yakkala",
+      "Ambepussa",
+      "Kegalle",
+      "Kandy"
+    ],
+    "A02": [
+      "Colombo",
+      "Panadura",
+      "Kalutara",
+      "Galle",
+      "Matara",
+      "Nonagama",
+      "Hambantota",
+      "Wellawaya"
+    ],
+    "A03": [
+      "Colombo",
+      "Ja-Ela",
+      "Puttalam"
+    ],
+    "A04": [
+      "Colombo",
+      "Avissawella",
+      "Ratnapura",
+      "Pelmadulla",
+      "Beragala",
+      "Wellawaya",
+      "Moneragala",
+      "Siyabalanduwa",
+      "Pottuvil",
+      "Karaitivu",
+      "Batticaloa"
+    ],
+    "A05": [
+      "Kandy",
+      "Nuwara-Eliya",
+      "Hali-Ela",
+      "Badulla",
+      "Passara",
+      "Padiyathalawa",
+      "Maha Oya",
+      "Chenkaladi"
+    ],
+    "A06": [
+      "Ambepussa",
+      "Polgahawela",
+      "Kurunegala",
+      "Dambulla",
+      "Habarana",
+      "Trincomalee"
+    ],
+    "A07": [
+      "Avissawella",
+      "Karawanella",
+      "Nuwara-Eliya"
+    ],
+    "A08": [
+      "Panadura",
+      "Ratnapura"
+    ],
+    "A09": [
+      "Kandy",
+      "Matale",
+      "Dambulla",
+      "Maradankadawala",
+      "Galkulama",
+      "Mihintale",
+      "Rambewa",
+      "Medawachchiya",
+      "Vavuniya",
+      "Mankulam",
+      "Kilinochchi",
+      "Paranthan",
+      "Jaffna"
+    ],
+    "A10": [
+      "Kandy",
+      "Kurunegala",
+      "Padeniya",
+      "Puttalam"
+    ],
+    "A11": [
+      "Maradankadawala",
+      "Habarana",
+      "Polonnaruwa",
+      "Thiruk'madu"
+    ],
+    "A12": [
+      "Puttalam",
+      "Anuradhapura",
+      "Mihintale",
+      "Horowpothana",
+      "Trincomalee"
+    ],
+    "A13": [
+      "Anuradhapura",
+      "Galkulama"
+    ],
+    "A14": [
+      "Medawachchiya",
+      "Parayanalankulam",
+      "Mannar"
+    ],
+    "A15": [
+      "Batticaloa",
+      "Chenkaladi",
+      "Thiruk'madu",
+      "Trincomalee"
+    ],
+    "A16": [
+      "Beragala",
+      "Kumbalwela",
+      "Hali-Ela"
+    ],
+    "A17": [
+      "Galle",
+      "Akuressa",
+      "Madampe"
+    ],
+    "A18": [
+      "Nonagama",
+      "Madampe",
+      "Pelmadulla"
+    ],
+    "A19": [
+      "Polgahawela",
+      "Kegalle"
+    ],
+    "A20": [
+      "Rambewa",
+      "Anuradhapura"
+    ],
+    "A21": [
+      "Kegalle",
+      "Karawanella"
+    ],
+    "A22": [
+      "Passara",
+      "Moneragala"
+    ],
+    "A23": [
+      "Wellawaya",
+      "Kumbalwela"
+    ],
+    "A24": [
+      "Matara",
+      "Akuressa"
+    ],
+    "A25": [
+      "Siyabalanduwa",
+      "Ampara"
+    ],
+    "A26": [
+      "Kandy",
+      "Padiyathalawa"
+    ],
+    "A27": [
+      "Maha Oya",
+      "Ampara"
+    ],
+    "A28": [
+      "Anuradhapura",
+      "Padeniya"
+    ],
+    "A29": [
+      "Vavuniya",
+      "Horowpothana"
+    ],
+    "A30": [
+      "Vavuniya",
+      "Parayanalankulam"
+    ],
+    "A31": [
+      "Ampara",
+      "Karaitivu"
+    ],
+    "A32": [
+      "Mannar",
+      "Jaffna"
+    ],
+    "A33": [
+      "Ja-Ela",
+      "Yakkala"
+    ],
+    "A34": [
+      "Mankulam",
+      "Mullaitivu"
+    ],
+    "A35": [
+      "Paranthan",
+      "Mullaitivu"
+    ]
+  },
+  "width_height": [
+    1200,
+    2000
+  ],
+  "padding": 100
+}
