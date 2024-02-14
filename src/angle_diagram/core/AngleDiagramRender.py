@@ -28,7 +28,9 @@ FONT_SIZE = 16
 
 class AngleDiagramRender:
     class STYLES:
-        TITLE = dict(font_family=FONT_FAMILY, fill="gray", text_anchor="middle") 
+        TITLE = dict(
+            font_family=FONT_FAMILY, fill="gray", text_anchor="middle"
+        )
 
         class PLACE:
             CIRCLE = dict(r=9, fill='white', stroke='grey', stroke_width=6)
@@ -171,30 +173,46 @@ class AngleDiagramRender:
                 for road, places in self.roads.items()
             ],
         )
-    
+
     @cached_property
     def svg_titles(self) -> _:
         width, height = self.width_height
         padding = self.padding
-        return _('g', [
-            _('text', self.title, AngleDiagramRender.STYLES.TITLE | dict(
-                x=width/2 + padding,
-                y=padding * 1.5,
-
-                font_size=FONT_SIZE * 8,
-            )),
-             _('text', self.sub_title, AngleDiagramRender.STYLES.TITLE | dict(
-                x=width/2 + padding,
-                y=padding * 2.5,
-
-                font_size=FONT_SIZE * 4,
-            )),
-                _('text', self.footer, AngleDiagramRender.STYLES.TITLE | dict(
-                x=width/2 + padding,
-                y=height + padding * 3 ,
-                font_size=FONT_SIZE * 4.5,
-            ))
-        ])
+        return _(
+            'g',
+            [
+                _(
+                    'text',
+                    self.title,
+                    AngleDiagramRender.STYLES.TITLE
+                    | dict(
+                        x=width / 2 + padding,
+                        y=padding * 1.5,
+                        font_size=FONT_SIZE * 8,
+                    ),
+                ),
+                _(
+                    'text',
+                    self.sub_title,
+                    AngleDiagramRender.STYLES.TITLE
+                    | dict(
+                        x=width / 2 + padding,
+                        y=padding * 2.5,
+                        font_size=FONT_SIZE * 4,
+                    ),
+                ),
+                _(
+                    'text',
+                    self.footer,
+                    AngleDiagramRender.STYLES.TITLE
+                    | dict(
+                        x=width / 2 + padding,
+                        y=height + padding * 3,
+                        font_size=FONT_SIZE * 4.5,
+                    ),
+                ),
+            ],
+        )
 
     @cached_property
     def svg(self) -> _:
@@ -213,7 +231,7 @@ class AngleDiagramRender:
         png_path = path.with_suffix('.png')
 
         drawing = svg2rlg(path)
-        renderPM.drawToFile(drawing, png_path, fmt="PNG", dpi=120)
+        renderPM.drawToFile(drawing, png_path, fmt="PNG", dpi=300)
         log.info(f'Wrote {png_path}')
 
         os.startfile(png_path)

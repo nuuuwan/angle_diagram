@@ -18,7 +18,6 @@ class AngleDiagramBase:
         width_height: tuple[float, float],
         padding: float,
     ):
-
         self.title = title
         self.sub_title = sub_title
         self.footer = footer
