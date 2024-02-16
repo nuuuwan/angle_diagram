@@ -1,7 +1,6 @@
 import math
 import os
 import pathlib
-import random
 from functools import cache, cached_property
 
 from reportlab.graphics import renderPM
@@ -11,19 +10,26 @@ from utils import Log, _
 from utils_future import BBox, LatLng
 
 log = Log('AngleDiagramRender')
-
-COLOR_CACHE = {}
+FONT_FAMILY = "P22 Johnston Underground"
+FONT_SIZE = 32
+DO_NORMALIZE = True
 
 
 def get_color(x):
-    if x not in COLOR_CACHE:
-        h = random.randint(0, 240)
-        COLOR_CACHE[x] = f'hsla({h}, 100%, 25%, 0.5)'
-    return COLOR_CACHE[x]
+    if "AB" in x:
+        return 'orange'
+    if "AC" in x:
+        return 'green'
 
+    if "E" in x:
+        return 'purple'
+    if "A" in x:
+        return 'red'
 
-FONT_FAMILY = "P22 Johnston Underground"
-FONT_SIZE = 16
+    if "B" in x:
+        return 'blue'
+
+    return 'gray'
 
 
 class AngleDiagramRender:
@@ -48,11 +54,13 @@ class AngleDiagramRender:
 
     @cached_property
     def norm_places(self) -> dict[str, LatLng]:
+        if not DO_NORMALIZE:
+            return self.places
         places = self.places
         place_keys = sorted(places.keys())
         n_places = len(places)
-        MIN_D = 0.2
-        ALPHA = 0.01
+        MIN_D = 0.1
+        ALPHA = 0.05
         MAX_ITERS = 1_000
         for iter in range(MAX_ITERS):
             if iter % 100 == 0:
@@ -188,7 +196,7 @@ class AngleDiagramRender:
                     | dict(
                         x=width / 2 + padding,
                         y=padding * 1.5,
-                        font_size=FONT_SIZE * 8,
+                        font_size=FONT_SIZE * 2,
                     ),
                 ),
                 _(
@@ -198,7 +206,7 @@ class AngleDiagramRender:
                     | dict(
                         x=width / 2 + padding,
                         y=padding * 2.5,
-                        font_size=FONT_SIZE * 4,
+                        font_size=FONT_SIZE * 1,
                     ),
                 ),
                 _(
@@ -208,7 +216,7 @@ class AngleDiagramRender:
                     | dict(
                         x=width / 2 + padding,
                         y=height + padding * 3,
-                        font_size=FONT_SIZE * 4.5,
+                        font_size=FONT_SIZE * 1,
                     ),
                 ),
             ],
@@ -228,10 +236,10 @@ class AngleDiagramRender:
     def write(self, path: pathlib.Path):
         self.svg.store(path)
         log.debug(f'Wrote {path}')
+        os.startfile(path)
+
         png_path = path.with_suffix('.png')
 
         drawing = svg2rlg(path)
         renderPM.drawToFile(drawing, png_path, fmt="PNG", dpi=300)
         log.info(f'Wrote {png_path}')
-
-        os.startfile(png_path)

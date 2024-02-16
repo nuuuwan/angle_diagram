@@ -1,0 +1,196 @@
+{
+  "title": "Greater Colombo",
+  "sub_title": "Road Network of Sri Lanka",
+  "footer": "By @nuuuwan",
+  "places": {
+    "Avissawella": [
+      6.9531,
+      80.2124
+    ],
+    "Colombo 1": [
+      6.9347,
+      79.8428
+    ],
+    "Colombo 1 (Ceremic Junction)": [
+      6.9326,
+      79.846
+    ],
+    "Colombo 3": [
+      6.9119,
+      79.8506
+    ],
+    "Colombo 3 (Piththala Junction)": [
+      6.913,
+      79.8556
+    ],
+    "Colombo 5": [
+      6.8818,
+      79.8698
+    ],
+    "Colombo 7 (Castle Street)": [
+      6.9113,
+      79.8775
+    ],
+    "Dematagoda": [
+      6.9401,
+      79.8782
+    ],
+    "Gelanigama": [
+      6.7189,
+      79.9999
+    ],
+    "Ja-Ela": [
+      7.0811,
+      79.8909
+    ],
+    "Kadawatha": [
+      7.0072,
+      79.9598
+    ],
+    "Kaduwela": [
+      6.9362,
+      79.9717
+    ],
+    "Katunayake": [
+      7.1568,
+      79.8713
+    ],
+    "Kothalawala": [
+      6.9243,
+      79.9782
+    ],
+    "Magammana": [
+      7.0175,
+      79.8944
+    ],
+    "Maharagama": [
+      6.8512,
+      79.9208
+    ],
+    "Makumbura": [
+      6.8396,
+      79.9809
+    ],
+    "Nugegoda": [
+      6.8652,
+      79.898
+    ],
+    "Orugodawatta": [
+      6.9442,
+      79.8784
+    ],
+    "Pamankada": [
+      6.8782,
+      79.8764
+    ],
+    "Panadura": [
+      6.7124,
+      79.9075
+    ],
+    "Peliyagoda": [
+      6.9561,
+      79.8834
+    ],
+    "Piliyandala": [
+      6.8015,
+      79.923
+    ],
+    "Rajagiriya": [
+      6.9094,
+      79.8962
+    ],
+    "Weliwita": [
+      6.9373,
+      79.9451
+    ],
+    "Yakkala": [
+      7.086,
+      80.0334
+    ]
+  },
+  "roads": {
+    "A00": [
+      "Colombo 3",
+      "Colombo 3 (Piththala Junction)",
+      "Colombo 7 (Castle Street)",
+      "Rajagiriya"
+    ],
+    "A01": [
+      "Colombo 1",
+      "Colombo 1 (Ceremic Junction)",
+      "Dematagoda",
+      "Orugodawatta",
+      "Peliyagoda",
+      "Kadawatha",
+      "Yakkala"
+    ],
+    "A02": [
+      "Colombo 1",
+      "Colombo 3",
+      "Panadura"
+    ],
+    "A03": [
+      "Peliyagoda",
+      "Magammana",
+      "Ja-Ela",
+      "Katunayake"
+    ],
+    "A04": [
+      "Colombo 1 (Ceremic Junction)",
+      "Colombo 3 (Piththala Junction)",
+      "Colombo 5",
+      "Pamankada",
+      "Nugegoda",
+      "Maharagama",
+      "Makumbura",
+      "Avissawella"
+    ],
+    "A08": [
+      "Gelanigama",
+      "Panadura"
+    ],
+    "AB10": [
+      "Peliyagoda",
+      "Weliwita",
+      "Kaduwela"
+    ],
+    "AC5/AC7/AC8": [
+      "Dematagoda",
+      "Colombo 7 (Castle Street)",
+      "Pamankada"
+    ],
+    "B084": [
+      "Colombo 5",
+      "Piliyandala"
+    ],
+    "B240/B263": [
+      "Rajagiriya",
+      "Kothalawala"
+    ],
+    "B435": [
+      "Orugodawatta",
+      "Weliwita"
+    ],
+    "E01": [
+      "Makumbura",
+      "Gelanigama"
+    ],
+    "E02": [
+      "Magammana",
+      "Kadawatha",
+      "Kaduwela",
+      "Kothalawala",
+      "Makumbura"
+    ],
+    "E03": [
+      "Peliyagoda",
+      "Magammana",
+      "Katunayake"
+    ]
+  },
+  "width_height": [
+    2000,
+    3000
+  ],
+  "padding": 50
+}

@@ -1,4 +1,6 @@
 import pathlib
+import webbrowser
+from functools import cached_property
 
 from utils import JSONFile, Log
 
@@ -25,6 +27,33 @@ class AngleDiagramBase:
         self.roads = roads
         self.width_height = width_height
         self.padding = padding
+        self.validate()
+
+    def validate(self):
+        a_diff_b = self.place_ids - self.place_ids_from_roads
+        b_diff_a = self.place_ids_from_roads - self.place_ids
+
+        if b_diff_a:
+            for place_id in sorted(list(b_diff_a)):
+                print(f'    "{place_id}": [],')
+                gmaps_link = f'https://www.google.com/maps/place/{place_id}'
+                webbrowser.open(gmaps_link)
+            raise Exception(f'Places not in places: {b_diff_a}')
+
+        if a_diff_b:
+            raise Exception(f'Places not in roads: {a_diff_b}')
+
+    @cached_property
+    def place_ids(self):
+        return set(self.places.keys())
+
+    @cached_property
+    def place_ids_from_roads(self):
+        place_ids = set()
+        for road, places in self.roads.items():
+            for place in places:
+                place_ids.add(place)
+        return place_ids
 
     def to_dict(self) -> dict:
         return dict(

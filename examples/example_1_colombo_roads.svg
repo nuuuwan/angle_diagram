@@ -1,0 +1,194 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="3200">
+  <g>
+    <g>
+      <path stroke-width="12" fill="none" d="M329.07153729073366,2084.242568063166L329.07153729073366,1583.4428086770213L316.8376857695142,1571.2089571558017 M316.8376857695142,1571.2089571558017L555.6259082558195,1571.2089571558017L655.6000205222933,1671.1830694222756 M655.6000205222933,1671.1830694222756L655.6000205222933,1699.341695290093L925.6870692456652,1969.428744013465" stroke="red"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="329.07153729073366" y="1583.4428086770213">A00</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="555.6259082558195" y="1571.2089571558017">A00</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="655.6000205222933" y="1699.341695290093">A00</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M256.4482752723558,848.617595029556L256.4482752723558,1042.7414386681917L50.0,1249.1897139405476 M50.0,1249.1897139405476L442.11801548737367,1249.1897139405476L527.4776392523174,1163.8300901756038 M527.4776392523174,1163.8300901756038L718.1540291530321,1163.8300901756038L1065.5234039642655,1511.1994649868373 M1065.5234039642655,1511.1994649868373L1065.5234039642655,1312.8984292608136L865.9800249687992,1113.3550502653472 M865.9800249687992,1113.3550502653472L1010.0751821802596,1113.3550502653472L1193.5320575308208,929.8981749147861 M1193.5320575308208,929.8981749147861L1193.5320575308208,845.5476864927175L1443.5380431994474,595.5417008240909" stroke="red"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="256.4482752723558" y="1042.7414386681917">A01</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="442.11801548737367" y="1249.1897139405476">A01</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="718.1540291530321" y="1163.8300901756038">A01</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1065.5234039642655" y="1312.8984292608136">A01</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1010.0751821802596" y="1113.3550502653472">A01</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1193.5320575308208" y="845.5476864927175">A01</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M256.4482752723558,848.617595029556L256.4482752723558,2011.6193060447881L329.07153729073366,2084.242568063166 M329.07153729073366,2084.242568063166L329.07153729073366,2630.9296598430146L748.141877447719,3050.0" stroke="red"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="256.4482752723558" y="2011.6193060447881">A02</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="329.07153729073366" y="2630.9296598430146">A02</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M865.9800249687992,1113.3550502653472L865.9800249687992,915.2320899270691L578.3464162946985,627.5984812529684 M578.3464162946985,627.5984812529684L890.6642242273024,627.5984812529684L917.7911172678164,600.4715882124544 M917.7911172678164,600.4715882124544L917.7911172678164,309.5437210336736L758.2473962341428,150.0" stroke="red"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="865.9800249687992" y="915.2320899270691">A03</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="890.6642242273024" y="627.5984812529684">A03</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="917.7911172678164" y="309.5437210336736">A03</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M50.0,1249.1897139405476L50.0,1304.3712713862874L316.8376857695142,1571.2089571558017 M316.8376857695142,1571.2089571558017L316.8376857695142,2522.27342199312L435.03326321549196,2640.468999439098 M435.03326321549196,2640.468999439098L435.03326321549196,2434.29313448709L640.4904827869345,2228.835914915647 M640.4904827869345,2228.835914915647L640.4904827869345,2349.76548648574L883.3966104013792,2592.671614100185 M883.3966104013792,2592.671614100185L905.7806355994262,2592.671614100185L1172.3949515160648,2326.057298183546 M1172.3949515160648,2326.057298183546L1416.3510554835927,2326.057298183546L1514.0979597421272,2228.310393925012 M1514.0979597421272,2228.310393925012L1514.0979597421272,1927.6572285911336L1950.0,1491.7551883332608" stroke="red"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="50.0" y="1304.3712713862874">A04</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="316.8376857695142" y="2522.27342199312">A04</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="435.03326321549196" y="2434.29313448709">A04</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="640.4904827869345" y="2349.76548648574">A04</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="905.7806355994262" y="2592.671614100185">A04</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1416.3510554835927" y="2326.057298183546">A04</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1514.0979597421272" y="1927.6572285911336">A04</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M1499.6058009680094,2938.464425939504L859.677451508215,2938.464425939504L748.141877447719,3050.0" stroke="red"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="859.677451508215" y="2938.464425939504">A08</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M865.9800249687992,1113.3550502653472L865.9800249687992,1335.2516344139408L1331.5649958100664,1800.836605255208 M1331.5649958100664,1800.836605255208L1528.1902716773943,1800.836605255208L1648.1341815880792,1680.8926953445232" stroke="orange"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="865.9800249687992" y="1335.2516344139408">AB10</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1528.1902716773943" y="1800.836605255208">AB10</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M527.4776392523174,1163.8300901756038L527.4776392523174,1543.0606881522997L655.6000205222933,1671.1830694222756 M655.6000205222933,1671.1830694222756L655.6000205222933,2213.726377180288L640.4904827869345,2228.835914915647" stroke="green"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="527.4776392523174" y="1543.0606881522997">AC5/AC7/AC8</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="655.6000205222933" y="2213.726377180288">AC5/AC7/AC8</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M435.03326321549196,2640.468999439098L969.6123577726585,2640.468999439098L1177.9188685376412,2848.7755102040805" stroke="blue"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="969.6123577726585" y="2640.468999439098">B084</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M925.6870692456652,1969.428744013465L925.6870692456652,1775.842749778917L1456.5192482000568,1245.0105708245255" stroke="blue"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="925.6870692456652" y="1775.842749778917">B240/B263</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M1065.5234039642655,1511.1994649868373L1065.5234039642655,1534.7950134094071L1331.5649958100664,1800.836605255208" stroke="blue"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1065.5234039642655" y="1534.7950134094071">B435</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M1514.0979597421272,2228.310393925012L1514.0979597421272,2923.9722671653863L1499.6058009680094,2938.464425939504" stroke="purple"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1514.0979597421272" y="2923.9722671653863">E01</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M578.3464162946985,627.5984812529684L891.2323638690032,627.5984812529684L1193.5320575308208,929.8981749147861 M1193.5320575308208,929.8981749147861L1193.5320575308208,1226.2905712872648L1648.1341815880792,1680.8926953445232 M1648.1341815880792,1680.8926953445232L1648.1341815880792,1436.6255042125479L1456.5192482000568,1245.0105708245255 M1456.5192482000568,1245.0105708245255L1456.5192482000568,2170.7316823829415L1514.0979597421272,2228.310393925012" stroke="purple"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="891.2323638690032" y="627.5984812529684">E02</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1193.5320575308208" y="1226.2905712872648">E02</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1648.1341815880792" y="1436.6255042125479">E02</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="1456.5192482000568" y="2170.7316823829415">E02</text>
+    </g>
+    <g>
+      <path stroke-width="12" fill="none" d="M865.9800249687992,1113.3550502653472L865.9800249687992,915.2320899270691L578.3464162946985,627.5984812529684 M578.3464162946985,627.5984812529684L578.3464162946985,329.90097993944426L758.2473962341428,150.0" stroke="purple"/>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="865.9800249687992" y="915.2320899270691">E03</text>
+      <text font-size="21.333333333333332" font-family="P22 Johnston Underground" x="578.3464162946985" y="329.90097993944426">E03</text>
+    </g>
+  </g>
+  <g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1950.0" cy="1491.7551883332608"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1982.0" y="1491.7551883332608">Avissawella</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="256.4482752723558" cy="848.617595029556"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="288.4482752723558" y="848.617595029556">Colombo 1</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="50.0" cy="1249.1897139405476"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="82.0" y="1249.1897139405476">Colombo 1 (Ceremic Junction)</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="329.07153729073366" cy="2084.242568063166"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="361.07153729073366" y="2084.242568063166">Colombo 3</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="316.8376857695142" cy="1571.2089571558017"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="348.8376857695142" y="1571.2089571558017">Colombo 3 (Piththala Junction)</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="435.03326321549196" cy="2640.468999439098"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="467.03326321549196" y="2640.468999439098">Colombo 5</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="655.6000205222933" cy="1671.1830694222756"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="687.6000205222933" y="1671.1830694222756">Colombo 7 (Castle Street)</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="527.4776392523174" cy="1163.8300901756038"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="559.4776392523174" y="1163.8300901756038">Dematagoda</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1499.6058009680094" cy="2938.464425939504"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1531.6058009680094" y="2938.464425939504">Gelanigama</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="917.7911172678164" cy="600.4715882124544"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="949.7911172678164" y="600.4715882124544">Ja-Ela</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1193.5320575308208" cy="929.8981749147861"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1225.5320575308208" y="929.8981749147861">Kadawatha</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1648.1341815880792" cy="1680.8926953445232"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1680.1341815880792" y="1680.8926953445232">Kaduwela</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="758.2473962341428" cy="150.0"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="790.2473962341428" y="150.0">Katunayake</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1456.5192482000568" cy="1245.0105708245255"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1488.5192482000568" y="1245.0105708245255">Kothalawala</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="578.3464162946985" cy="627.5984812529684"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="610.3464162946985" y="627.5984812529684">Magammana</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1172.3949515160648" cy="2326.057298183546"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1204.3949515160648" y="2326.057298183546">Maharagama</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1514.0979597421272" cy="2228.310393925012"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1546.0979597421272" y="2228.310393925012">Makumbura</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="883.3966104013792" cy="2592.671614100185"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="915.3966104013792" y="2592.671614100185">Nugegoda</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1065.5234039642655" cy="1511.1994649868373"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1097.5234039642655" y="1511.1994649868373">Orugodawatta</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="640.4904827869345" cy="2228.835914915647"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="672.4904827869345" y="2228.835914915647">Pamankada</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="748.141877447719" cy="3050.0"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="780.141877447719" y="3050.0">Panadura</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="865.9800249687992" cy="1113.3550502653472"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="897.9800249687992" y="1113.3550502653472">Peliyagoda</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1177.9188685376412" cy="2848.7755102040805"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1209.9188685376412" y="2848.7755102040805">Piliyandala</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="925.6870692456652" cy="1969.428744013465"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="957.6870692456652" y="1969.428744013465">Rajagiriya</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1331.5649958100664" cy="1800.836605255208"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1363.5649958100664" y="1800.836605255208">Weliwita</text>
+    </g>
+    <g>
+      <circle r="9" fill="white" stroke="grey" stroke-width="6" cx="1443.5380431994474" cy="595.5417008240909"/>
+      <text text-anchor="start" dominant-baseline="middle" font-size="32" font-family="P22 Johnston Underground" x="1475.5380431994474" y="595.5417008240909">Yakkala</text>
+    </g>
+  </g>
+  <g>
+    <text font-family="P22 Johnston Underground" fill="gray" text-anchor="middle" x="1050.0" y="75.0" font-size="64">Greater Colombo</text>
+    <text font-family="P22 Johnston Underground" fill="gray" text-anchor="middle" x="1050.0" y="125.0" font-size="32">Road Network of Sri Lanka</text>
+    <text font-family="P22 Johnston Underground" fill="gray" text-anchor="middle" x="1050.0" y="3150" font-size="32">By @nuuuwan</text>
+  </g>
+</svg>
